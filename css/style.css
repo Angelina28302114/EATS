@@ -40,9 +40,22 @@ a {
   text-decoration: none;
 }
 /* header */
+.header > .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    padding-top: 54px;
+    padding-bottom: 54px;
+}
 
 .navbar {
   justify-content: space-between;
+}
+
+.nav {
+    gap: 94px;
 }
 
 .nav-link {
@@ -52,7 +65,7 @@ a {
   letter-spacing: 0.01em;
   text-align: center;
   color: #252b42;
-  margin-right: 104px;
+  gap: 94px;
 }
 .current {
   color: #fa4a0c;
@@ -62,8 +75,13 @@ a {
 .hero {
   background-color: #252b42;
   background-image: url(../img/hero.png);
-  width: 1440px;
-  height: 619px;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  margin-right: auto;
+margin-left: auto;
+padding-top: 80px;
+padding-bottom: 160px;
 }
 
 .title-one {
@@ -105,8 +123,14 @@ a {
   width: 236px;
   height: 68px;
   box-shadow: 0 10px 30px 0 rgba(183, 50, 39, 0.2);
-  background: #fa4a0c;
+  background-color: #fa4a0c;
   border: none;
+
+  &:hover,
+&:focus {
+    background-color: #ffffff;
+    color: #fa4a0c;
+}
 }
 
 .btn-two {
@@ -125,17 +149,16 @@ a {
 /*app */
 
 .app-title-one {
-  font-family: var(--second-family);
   font-weight: 600;
   font-size: 44px;
   line-height: 82%;
   letter-spacing: 0em;
   color: #000;
   opacity: 0.8;
+  padding-top: 56px;
 }
 
 .app-text-one {
-  font-family: var(--font-family);
   font-weight: 700;
   font-size: 24px;
   line-height: 150%;
@@ -144,7 +167,6 @@ a {
 }
 
 .app-title-two {
-  font-family: var(--font-family);
   font-weight: 700;
   font-size: 40px;
   line-height: 142%;
@@ -154,7 +176,6 @@ a {
 }
 
 .app-text-two {
-  font-family: var(--font-family);
   font-weight: 500;
   font-size: 24px;
   line-height: 158%;
@@ -198,6 +219,10 @@ a {
     background-image: url(../img/order.png);
     width: 1440px;
     height: 516px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 131px;
+    padding-bottom: 130px;
 }
 
 .order-title {
@@ -231,6 +256,13 @@ a {
   width: 142px;
   height: 64px;
   background-color: #fa4a0c;
+  border: none;
+
+  &:hover,
+  &:focus {
+    background-color: #ffffff;
+    color: #fa4a0c;
+}
 }
 
 .order-btn-two {
@@ -244,11 +276,27 @@ a {
   padding: 16px 45px;
   width: 174px;
   height: 60px;
+
+  &:hover,
+  &:focus {
+    background-color: #fa4a0c;
+    color: #ffffff;
+    border: none;
+}
+}
+
+.btn-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 49px;
+    gap: 16px;
 }
 
 /* footer */
-.footer {
-}
+/* .footer {
+    padding-top: 78px;
+    padding-bottom: 27px;
+} */
 
 
 .footer-text {
