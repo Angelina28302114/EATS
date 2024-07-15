@@ -41,13 +41,13 @@ a {
 }
 /* header */
 .header > .container {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .header {
-    padding-top: 54px;
-    padding-bottom: 54px;
+  padding-top: 54px;
+  padding-bottom: 54px;
 }
 
 .navbar {
@@ -55,7 +55,7 @@ a {
 }
 
 .nav {
-    gap: 94px;
+  gap: 94px;
 }
 
 .nav-link {
@@ -79,9 +79,9 @@ a {
   background-position: center;
 
   margin-right: auto;
-margin-left: auto;
-padding-top: 80px;
-padding-bottom: 160px;
+  margin-left: auto;
+  padding-top: 80px;
+  padding-bottom: 160px;
 }
 
 .title-one {
@@ -127,10 +127,10 @@ padding-bottom: 160px;
   border: none;
 
   &:hover,
-&:focus {
+  &:focus {
     background-color: #ffffff;
     color: #fa4a0c;
-}
+  }
 }
 
 .btn-two {
@@ -215,14 +215,14 @@ padding-bottom: 160px;
 /* order */
 
 .order {
-    background-color: #252b42;
-    background-image: url(../img/order.png);
-    width: 1440px;
-    height: 516px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 131px;
-    padding-bottom: 130px;
+  background-color: #252b42;
+  background-image: url(../img/order.png);
+  width: 1440px;
+  height: 516px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 131px;
+  padding-bottom: 130px;
 }
 
 .order-title {
@@ -262,10 +262,11 @@ padding-bottom: 160px;
   &:focus {
     background-color: #ffffff;
     color: #fa4a0c;
-}
+  }
 }
 
 .order-btn-two {
+  font-family: var(--font-family);
   font-weight: 700;
   font-size: 16px;
   line-height: 175%;
@@ -282,14 +283,14 @@ padding-bottom: 160px;
     background-color: #fa4a0c;
     color: #ffffff;
     border: none;
-}
+  }
 }
 
 .btn-box {
-    display: flex;
-    justify-content: center;
-    margin-top: 49px;
-    gap: 16px;
+  display: flex;
+  justify-content: center;
+  margin-top: 49px;
+  gap: 16px;
 }
 
 /* footer */
@@ -298,12 +299,11 @@ padding-bottom: 160px;
     padding-bottom: 27px;
 } */
 
-
 .footer-text {
-font-weight: 700;
-font-size: 12px;
-line-height: 150%;
-letter-spacing: 0.01em;
-text-align: right;
-color: #5c5c5c;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  text-align: right;
+  color: #5c5c5c;
 }
